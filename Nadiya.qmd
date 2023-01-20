@@ -1,0 +1,197 @@
+---
+title: "Analisis Pengaruh Eskpor Batubara Lignit Ke China Terhadap Nilai Tukar Rupiah"
+subtitle: "Politeknik APP Jakarta"
+author: "Nadiyah Putri Hapsari"
+date: 2023-01-19
+number-sections: true
+format:
+  html: default
+  docx: default
+editor: visual
+---
+
+This **just** a ~~showcase~~ of what *Quarto* docs can produce. I use this part for my students.
+
+**POLITEKNIK APP JAKARTA**
+
+![](images/app-01.jpg)
+
+**http:///poltekapp.ac.id**
+
+## Pendahuluan
+
+### Latar belakang
+
+Batubara merupakan endapan senyawa organik karbonan yang terbentuk secara alamiah dari sisa tumbuh-tumbuhan dan bisa terbakar. Batubara mempunyai beberapa tipe yaitu *antrasite, bituminous, sub-bituminous* dan *lignite*. Pembagian jenis batubara dibagi menjadi sumber penghasil energi primer dan penghasil energi sekunder, dimana nilai jual batubara tipe lignit sebagai penghasil energi sekunder sangatlah rendah sehingga perlu dilakukan inovasi untuk mengubah batubara tipe lignit, salah satunya dengan metode pencairan batubara
+
+Kegiatan pertambangan batubara lignit memberikan pengaruh cukup besar terhadap perekonomian di Indonesia. Sektor pertambangan batubara dan lignit merupakan sektor yang strategis terutama bagi daerah yang kaya sumber daya alamnya. Pertambangan batubara dan lignit merupakan tulang punggung bagi pendapatan daerah tersebut (Djajadiningrat, 2007). Sektor pertambangan batubara dan lignit menjadi penyumbang devisa negara yang dominan. Indonesia menjadi negara yang kaya akan kandungan mineral khususnya pada komoditi batubara dan lignit. Pertambangan batubara dan lignit di Indonesia merupakan salah satu andalan sumber energi alternatif di luar minyak dan gas bumi.
+
+### Ruang lingkup
+
+Untuk memberikan gambaran yang jelas terhadap pembahasan, serta agar analisis menjadi terarah dan sesuai dengan pembahasan yang ada, maka penulis menetapkan ruang lingkup pembahasan pada pengambilan data dari Badan Pusat Statistik (BPS) selama sepuluh tahun terakhir (2012-2021). Data ini kemudian dibandingkan dengan nilai tukar rupiah.
+
+### Rumusan masalah
+
+Berdasarkan latar belakang yang telah diuraikan di atas, maka permasalahan dalam pembahasan ini yaitu:
+
+1.  Apakah ekspor batubara lignit ke China dapat mempengaruhi nilai tukar rupiah?
+
+### Tujuan dan manfaat penelitian
+
+Berdasarkan rumusan masalah yang telah dikemukakan di atas, maka tujuan penelitian yang hendak dicapai adalah untuk mengetahui dan menganalisis ekspor batubara lignit ke negara China dapat mempengaruhi nilai tukar rupiah atau tidak. Manfaat yang diperoleh dari makalah ini adalah menambah ilmu dan wawasan tentang batubara lignit dan dalam rangka memenuhi tugas pengganti UAS mata kuliah Metodologi Penelitian.
+
+### Package
+
+Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+
+ setwd('C:/MENTOPEL/UAS METOPEL')
+library(tidyverse)
+library(readxl)
+ dat<-read_excel('DATA LIGNIT BPS.xlsx')
+ plot(dat$X,dat$Y,xlab="Nilai Ekspor",ylab="Error")
+```
+
+`-- Attaching packages ------------------------------------------- tidyverse 1.3.2 -- v ggplot2 3.3.6      v purrr   0.3.5  v tibble  3.1.8      v dplyr   1.0.10 v tidyr   1.2.1      v stringr 1.4.1  v readr   2.1.3      v forcats 0.5.2  -- Conflicts ---------------------------------------------- tidyverse_conflicts() -- x dplyr::filter() masks stats::filter() x dplyr::lag()    masks stats::lag() > setwd('C:/MENTOPEL/UAS METOPEL') > library('readxl') > library('tidyverse')`
+
+## Studi pustaka
+
+**Pengertian Perdagangan Internasional**
+
+Menurut Christianto (2013) Pengertian Perdagangan Internasional secara sederhana menurut kamus ekonomi yaitu perdagangan yang terjadi antara dua negara atau lebih. Perdagangan luar negeri merupakan aspek penting bagi perekonomian suatu negara. Perdagangan internasional menjadi semakin penting tidak hanya dalam pembangunan negara yang berorientasi keluar akan tetapi juga dalam mencari pasar di negara lain bagi hasil-hasil produksi di dalam negeri serta pengadaan barang-barang modal guna mendukung perkembangan industri di dalam negeri. Perdagangan internasional diawali dengan pertukaran atau perdagangan tenaga kerja dengan barang dan jasa lainnya. Dasar dalam perdagangan internasional adalah adanya perdagangan barang dan jasa antara dua negara atau lebih yang bertujuan untuk mendapatkan keuntungan. Perdagangan ini terjadi apabila terdapat permintaan dan penawaran pada pasar internasional.
+
+**Pengertian Batubara**
+
+Pengertian batubara menurut Pasal 1 ayat (3) Undang-Undang No.4 Tahun 2009 tentang Pertambangan Mineral dan Batubara yaitu *"Batubara adalah endapan senyawa organik karbonan yang terbentuk secara alamiah dari sisa tumbuh-tumbuhan"* Sedangkan dalam pengertian lainnya di dalam KBBI, batubara adalah arang yang diambil dari dalam tanah, berasal dari tumbuhan darat, tumbuhan air, dan sebagainya yang telah menjadi batu. Batubara dikenal sebagai "emas" hitam karena masyarakat mengenalnya sebagai batu hitam yang bisa terbakar.
+
+Menurut seorang ahli geokimia batubara Elliot dalam Prof. Dr. Ir. Irwandy Arif, M.Sc berpendapat bahwa batubara merupakan batuan sedimen yang secara fisika dan kimia yaitu heterogen yang mengandung unsur-unsur hydrogen, karbon, dan oksigen sebagai komponen unsur utama dan belerang serta nitrogen sebagai unsur tambahan. Selain itu ada pula zat lain yaitu senyawa anorganik pembentuk ash (debu) yang tersebar sebagai partikel zat mineral yang terpisah pada seluruh senyawa batubara.
+
+**Pengertian Daya Saing**
+
+Word Economic Forum (WEF), suatu lembaga yang secara rutin menerbitkan "Global Competitveness Report" mendefinisikan daya saing sebagai kemampuan suatu perekonomian nasional yang mencapai pertumbuhan ekonomi yang tinggi yang berkelanjutan. Komponennya meliputi kebijakan-kebijakan yang tepat, institusi yang sesuai, karakter ekonomi yang lain yang mendukung, terwujudnya pertumbuhan ekonomi yang tinggi dan berkelanjutan.
+
+**Pengertian Kurs Mata Uang**
+
+Menurut Fabozzi dan Franco, pengertian kurs adalah jumlah satu mata uang yang bisa ditukar per unit mata uang lain, atau harga satu mata uang dalam mata uang lain. Sedangkan menurut Nopirin, definisi kurs adalah pertukaran antara dua mata uang yang berbeda, maka akan mendapat perbandingan nilai/harga natara kedua mata uang tersebut.
+
+## Metode penelitian
+
+### Data Nilai Ekspor Batubara Lignit ke Negara China dan Nilai Tukar Rupiah
+
+|           |                         |                          |
+|-----------|-------------------------|--------------------------|
+| **TAHUN** | **Nilai ekspor (Yuan)** | **Nilai Tukar (Rupiah)** |
+| 2012      | 174315176,5             | 25710203                 |
+| 2013      | 166280135,7             | 24525094                 |
+| 2014      | 208387037,7             | 30735551                 |
+| 2015      | 121327061,8             | 17894847                 |
+| 2016      | 157649145,5             | 23252086                 |
+| 2017      | 246383944,4             | 36339815                 |
+| 2018      | 319058936,7             | 47058840                 |
+| 2019      | 2749227861,9            | 40549832                 |
+| 2020      | 196026226,8             | 28912423                 |
+| 2021      | 505960973,9             | 74625512                 |
+
+![]()
+
+Penelitian ini menggunakan data Badan Pusat Statistik (BPS)
+
+```{r}
+library('readxl')
+library('tidyverse')
+dat<-read_excel('DATA LIGNIT BPS.xlsx')
+reg1<-lm(Y~X,data=dat)
+summary(reg1)
+```
+
+![]()
+
+### Metode analisis
+
+Teknik analisis yang digunakan dalam penelitian ini adalah teknik kuantitatif dan penjabaran deskriptif. Teknik analisis kuantitatif merupakan analisis yang dilakukan dengan perhitungan angka-angka yang faktor yang mempengaruhi indeks nilai tukar rupiah terhadap nilai ekspor batubara lignit ke China. Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 2 variabel independen. Penelitian ini merbaksud mencari hubungan antara nilai tukar dan nilai ekspor. Spesifikasi yang dilakukan adalah:
+
+$$
+y_{t}=\beta_0 + \beta_1 x_t+\mu_t
+$$
+
+Di mana
+
+$y_t$ adalah nilai tukar Yuan (China) terhadap mata uang negara lain
+
+??0 adalah koefisien konstanta
+
+??1 adalah parameter
+
+$x_t$ adalah nilai ekspor
+
+??i adalah error term
+
+## Pembahasan
+
+### Pembahasan masalah
+
+Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.
+
+### Analisis masalah
+
+Hasil regresinya adalah
+
+```{r}
+reg1<-lm(Y~X,data=dat)
+summary(reg1)
+
+```
+
+Call:
+
+lm(formula = Y \~ X, data = dat)
+
+Residuals:
+
+Min 1Q Median 3Q Max
+
+-638.4 -492.6 -107.0 183.3 1358.2
+
+Coefficients:
+
+Estimate Std. Error t value Pr(\>\|t\|)
+
+(Intercept) -414.33830 697.28795 -0.594 0.56879
+
+X 0.04561 0.01117 4.085 0.00351 \*\*
+
+\-\--
+
+Signif. codes: 0 '\*\*\*' 0.001 '\*\*' 0.01 '\*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 655.1 on 8 degrees of freedom
+
+Multiple R-squared: 0.6759, Adjusted R-squared: 0.6354
+
+F-statistic: 16.69 on 1 and 8 DF, p-value: 0.00351
+
+```{r}
+library(readxl)
+dat<-read_excel("DATA LIGNIT BPS.xlsx")
+reg<-lm(Y~X,data=dat)
+summary(reg1)
+```
+
+## Kesimpulan
+
+Berdasarkan data hasil analisis kuantitatif yang telah dilakukan, setelah diamati ekspor batubara lignit ke China dapat mempengaruhi nilai tukar rupiah. Hal ini menunjukkan bahwa harga batubara dan nilai tukar berjalan beriringan (co-movement) di mana perubahan pada nilai tukar akan pada neraca perdagangan, begitu sebaliknya perubahan neraca perdagangan akan berakibat pada naik/turunnya nilai tukar suatu negara. Dampak dari terjadinya apresiasi nilai tukar mata uang negara eksportir yang menyebabkan harga produk negara tersebut menjadi lebih tinggi. Peningkatan nilai tukar mata uang Rupiah menyebabkan meningkatnya aktivitas untuk mendapatkan keuntungan dari selisih nilai tukar tersebut. Jika nilai tukar mengalami apresiasi maka suatu negara atau perusahaan akan melakukan ekspor (Denburg, 1994). Hubungan nilai tukar dengan ekspor dapat dijelaskan dengan konsep teori penawaran, penawaran disini adalah ekspor dari negara yang melakukan perdagangan luar negeri. Sedangkan harga yang dimaksud yaitu kurs. Dalam teori penawaran jika harga naik, maka penawaran akan komoditas akan naik, tetapi sebaliknya jika harga valuta asing rendah, maka barang yang ditawarkan juga akan berkurang (Sukirno, 2000). Jadi hubungan nilai tukar dan ekspor adalah positif (Suresmiathi, dkk, 2015).
+
+# **Referensi**
+
+Mohamad, Iyul, Dwiyana, Putra., Anthonius, J, Karsudjono. (2022). Pengaruh Harga Batubara dan Nilai Tukar Rupiah Terhadap Nilai Ekspor Batubara di Welhunt International PTE.Ltd Jakarta. https://ejournal.stiepancasetia.ac.id/jieb/article/view/686/490
+
+Muthia, Putri, Darsini, Lubis., Denny, Rizky, Hervani., Nia, Sasria. (2021). Identifikasi Kandungan Batubara Cair Tipe Lignit Menggunakan Metode Pirolisis Daerah Kecamatan Pasir Balengkong Provinsi Kalimantan Timur. Vol. 5. No. 2. (2021).: SPECTA Journal of Technology. https://journal.itk.ac.id/index.php/sjt/article/view/327
+
+Pengrtian Kurs Mata Uang, Jenis, dan Faktor yang Mempengaruhi Nilai Mata Uang. (2020). https://ekonomi.bunghatta.ac.id/index.php/en/article/339-pengertian-kurs-mata-uang-jenis-dan-faktor-yang-mempengaruhi-nilai-tukar
+
+Reporitory.Unisba.ac.id. (2015). http://repository.unisba.ac.id/bitstream/handle/123456789/498/07bab3_putri_10070111069_skr_2015.pdf?sequence=7&isAllowed=y
+
+Eprints.Polsri.ac.id. http://eprints.polsri.ac.id/2650/2/BAB%20I.pdf
+
+Eprints.Umm.ac.id https://eprints.umm.ac.id/64864/3/BAB%20II.pdf
